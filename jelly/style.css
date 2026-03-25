@@ -1,0 +1,95 @@
+/* Main */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1056.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+img {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    position: aboslute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    width: 800px;
+    height: 900px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header Image/Text */
+
+.shopkeeperText {
+    text-align: left;
+
+    width: 500px;
+    overflow: auto; 
+    z-index: 99; 
+
+    /* if the text doesn't fit change these values till it does! */
+    position: relative; 
+    top: 100px; 
+    left: 380px; 
+    width: 230px; 
+    height: 195px; 
+
+    margin-bottom: -195px;
+
+    font-size: 12pt; 
+    font-family: arial; 
+    color: #5a6cce;
+}
+
+.headerImage {
+    display: block;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+
+/* Shop */
+
+.flexBox {
+    display: flex; 
+    flex: row;
+    margin: auto;
+    border-top: 1px solid black;
+    padding-top: 12px;
+}
+
+.flexBox > div {
+    margin: 0px 12px;
+    padding: 4px;
+}
+
+.shopGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 48px;
+    row-gap: 48px;
+    margin: 12px;   
+}
+
+.shopGrid > div {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
