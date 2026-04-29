@@ -377,3 +377,18 @@ p {
         max-width: 100%;
     }
 }
+
+/* update letter */
+
+.letter {
+    background-image: url(/images/letterBG.png);
+    width: 600px;
+    box-shadow: none;
+    border: 6px solid var(--surf-blue);
+}
+
+.letter > div {
+    border: none;
+    box-shadow: none;
+    background-color: rgba(255, 253, 234, 0.75);
+}
