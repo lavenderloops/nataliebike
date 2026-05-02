@@ -386,7 +386,7 @@ p {
 
 .letter {
     /* background-image: url(/images/letterBG.png); */
-    width: 560px;
+    
     box-shadow: none;
     border: 6px solid var(--surf-blue);
 }
