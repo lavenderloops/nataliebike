@@ -28,6 +28,10 @@
     src: url(/fonts/Hauora-Medium.woff2);
 }
 
+@font-face {
+    font-family: cream cake;
+    src: url(/fonts/Cream\ Cake.otf)
+}
 /* body */
 
 .top {
@@ -381,8 +385,8 @@ p {
 /* update letter */
 
 .letter {
-    background-image: url(/images/letterBG.png);
-    width: 600px;
+    /* background-image: url(/images/letterBG.png); */
+    width: 560px;
     box-shadow: none;
     border: 6px solid var(--surf-blue);
 }
@@ -390,5 +394,31 @@ p {
 .letter > div {
     border: none;
     box-shadow: none;
-    background-color: rgba(255, 253, 234, 0.75);
+    padding: 16px;
+    background-color: white;
+}
+
+.letter p {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: .55px;
+}
+
+.letter h2 {
+    margin: 0px;
+}
+
+.letter img {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 6px;
+}
+
+.sig {
+    font-family: cream cake;
+    font-size: 36px;
+}
+
+.tape img{
+    margin: 0 0 -40px;
 }
