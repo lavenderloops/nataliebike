@@ -384,12 +384,6 @@ p {
 
 /* update letter */
 
-.letter {
-    /* background-image: url(/images/letterBG.png); */
-    
-    box-shadow: none;
-    border: 6px solid var(--surf-blue);
-}
 
 .letter > div {
     border: none;
